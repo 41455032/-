@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:Bow3_data;datatype:varchar,name:Bow3_classno;datatype:int,name:Bow3_time;datatype:varchar,name:Bow3_reason;datatype:varchar,name:Bow3_num;datatype:int,name:Bow3_peo;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:peo;datatype:int" />
+</info>

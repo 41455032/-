@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>教室借用系统</title>
+
+<!-- Bootstrap -->
+<link href="CSS/bootstrap.css" rel="stylesheet">
+
+
+</head>
+
+<body background="background/BingWallpaper-2017-05-23.jpg">
+<!--引入js文件-->
+<script src="js/jquery.min.js"></script>
+<script src="js/dropdown.js"></script>
+<script src="js/bootstrap.js"></script>
+<!--导航栏-->
+<nav class="navbar navbar-default" >
+<div class="container-fluid"> 
+  <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li><a href="Login.html">Log out</a></li>
+        <li><a href="About.html">About</a></li> 
+        
+      </ul>
+      <div class="container-fluid">
+  		<div class="row">
+    		<div class="col-md-offset-0 col-md-7">
+      			<h3 class="text-center">教室借用系统</h3>
+    		</div>
+            <ul class="nav navbar-nav" style="margin-left:130px">
+       			 <li><a href="Footprints.html">Footprints</a></li> 
+    		</ul>
+		</div>
+            
+	</div>
+ 	</div>
+  	</div>
+</nav>
+ <br>
+<div class="container">
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">请选择地点<span class="caret"></span> </button> 
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2" >
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">地点1</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">地点2</a></li>
+    </ul>
+  </div>
+  <div class="dropdown" >
+    <!--选择框1-->
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">请选择日期<span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">日期1</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">日期2</a></li>
+    </ul>
+  </div>
+<!--三个选择框+一个输入框-->
+   <!-- <form class="navbar-form navbar-left" role="search">--> <br>
+       <!--选择框2--> <br>
+       <!--选择框3-->
+       <div class="dropdown"> 
+       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown">请选择时间段<span class="caret"></span> 
+       </button>  
+       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">时间段1</a></li>
+        <li role="presentation" class="divider"></li>
+         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">时间段2</a></li> 
+       </ul>      </div> 
+     <br><br>
+     <!--输入框-->
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="input">
+        </div>
+      <!--按钮-->
+        <button type="submit" class="btn btn-default">goto</button>
+      <!--</form>-->
+
+</div>
+
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="navbar-inner navbar-content-center">
+    <p class="text-center" style="padding: 5px;font-size:20px">Author@1122</p>
+    </div>
+   </nav>
+   </body>
+</html>
